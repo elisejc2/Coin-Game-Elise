@@ -55,23 +55,4 @@ const moveCoin = () => {
     coin.style.left = `${x}px`
 }
 
-
-// if you ware to rewrite some of this code you could create an object to hold functions for the Arrow key 
-
-// const moveVertical = (element, amount) => {
-    // const currTop = extractPos(element.style.top);
-    // element.style.stoop = `${currTop { amount}px}
-// };
-
-
-// const moveHorizontal = (element, amount) => {
-    // const currLeft = extractPos(element.style.left);
-    // element.style.left = `${currLeft + amount}px
-// }
-
-// Left:  moveHorizontal(avatar, -50)
-// Right:  moveHorizontal(avatar, 50)
-// Up:  moveVertical(avatar, -50)
-// Down:  moveVertical(avatar, 50)
-
-// other features you coould add: more coins, different colors, sizes and values, score keeper, coins move
+// other features to add could: more coins, different colors, sizes and values, score keeper, coins move
